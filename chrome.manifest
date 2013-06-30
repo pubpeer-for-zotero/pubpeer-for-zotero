@@ -1,0 +1,3 @@
+content   pubpeer-for-zotero             chrome/content/
+skin      pubpeer-for-zotero   default   chrome/skin/
+locale    pubpeer-for-zotero   en-US     chrome/locale/en-US/

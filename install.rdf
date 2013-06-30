@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>pubpeer-for-zotero@mystery-lab.com</em:id>
+    <em:type>2</em:type>
+    <em:name>PubPeer for Zotero</em:name>
+    <em:version>0.0.1</em:version>
+    <em:creator>Developers for PubPeer</em:creator>
+    <em:description>Adds PubPeer content to Zotero.</em:description>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>true</em:unpack>
+    <em:targetApplication>
+	  <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>17.0</em:minVersion>
+        <em:maxVersion>21.*</em:maxVersion>
+	  </Description>
+    </em:targetApplication>
+    <em:targetApplication>
+	  <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id> <!-- Zotero -->
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+	  </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
