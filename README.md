@@ -10,6 +10,8 @@ extension -- all credit for getting our extension off the ground goes to the aut
 
 This is the development branch of the pubpeer-for-zotero extension.
 
+**Please consider contributing by working to resolve our [current list of issues](https://github.com/pubpeer-for-zotero/pubpeer-for-zotero/issues).**
+
 This extension is still in development and all code currently resides
 in this dedicated development branch.
 Once the extension is usable the development branch will be merged
